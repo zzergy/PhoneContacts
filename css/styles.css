@@ -1,0 +1,136 @@
+#main-container {
+    display: flex;
+    width: 405px;
+    height: 833px;
+    border: none;
+    background-color: #050505;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+#more-options-container {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    border: 2px solid transparent;
+    padding-right: 10px;
+}
+
+#search-bar {
+    width: 340px;
+    height: auto;
+    border-style: none;
+    font-family: Arial;
+    background-color: transparent;
+    color: #4c4c4c;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+#more-options-button {
+    height: 25px;
+    width: 25px;
+    align-self: flex-end;
+    background-repeat: no-repeat;
+    background-image: url("../img/icons8-menu-vertical-96.png");
+    background-size: cover;
+    background-color: lightgray;
+    border: 2px solid transparent;
+    border-radius: 50%;
+}
+
+#contacts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 2px solid transparent;
+    flex-grow: 1;
+    min-height: min-content;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+#create-contact-container > span {
+    color: #606060;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+#create-contact-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+#create-contact {
+    height: 25px;
+    width: 25px;
+    align-self: flex-start;
+    background-repeat: no-repeat;
+    background-image: url("../img/icons8-add-to-favorites-52.png");
+    background-size: cover;
+    background-color: darkgray;
+    border: 2px solid transparent;
+    border-radius: 50%;
+}
+
+.contact {
+    margin-top: 15px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    width: 389px;
+
+}
+
+.contact > span {
+    color: gray;
+    line-height: 50px;
+    vertical-align: middle;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.contact:hover {
+    background-color: #606060;
+    border-radius: 8%;
+}
+
+.contact-icon {
+    background-image: url("../img/icons8-contacts-208.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: lightgray;
+    height: 50px;
+    width: 50px;
+    border: 2px solid lightgray;
+    border-radius: 35px;
+}
+
+#navigation-bar-container {
+    position: relative;
+    height: 60px;
+    border: 2px solid transparent;
+}
+
+#navigation-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+/*Styles all of the buttons that are a child ONLY to the navigation- bar.*/
+#navigation-bar > button {
+    background: none;
+    margin-top: 10px;
+    border: none;
+    color: #f4f4f4;
+    font-size: 16px;
+}
+
+#navigation-bar > button:hover {
+    border-bottom: 3px dotted gray;
+}
