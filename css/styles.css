@@ -22,7 +22,7 @@
     border-style: none;
     font-family: Arial;
     background-color: transparent;
-    color: #4c4c4c;
+    color: #e0e0e0;
     padding-left: 10px;
     padding-top: 10px;
     font-size: 20px;
@@ -44,11 +44,14 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    background-color: #050505;
     border: 2px solid transparent;
     flex-grow: 1;
     min-height: min-content;
     overflow: scroll;
     scrollbar-width: none;
+    float: left;
+    height: 100%;
 }
 
 #create-contact-container > span {
@@ -95,19 +98,18 @@
 }
 
 .contact:hover {
-    background-color: #606060;
-    border-radius: 8%;
+    background-color: #191919;
+
 }
 
 .contact-icon {
-    background-image: url("../img/icons8-contacts-208.png");
+    /*background-image: url("../img/icons8-contacts-208.png"); Alternative icon choice.*/
+    background-image: url("../img/icons8_user_male_circle_96px.png");
     background-size: cover;
-    background-repeat: no-repeat;
-    background-color: lightgray;
-    height: 50px;
-    width: 50px;
-    border: 2px solid lightgray;
-    border-radius: 35px;
+    height: 52px;
+    width: 52px;
+    border: solid #191919;
+    border-radius: 100%;
 }
 
 #navigation-bar-container {
@@ -133,4 +135,117 @@
 
 #navigation-bar > button:hover {
     border-bottom: 3px dotted gray;
+}
+
+#big-list {
+    width: 1215px;
+    height: 737px;
+    overflow: hidden;
+}
+
+#small-list-with-a-hole {
+    width: 405px;
+    height: 833px;
+    overflow: scroll;
+    overflow-x: hidden;
+    scrollbar-width: none;
+
+}
+
+#resents-container {
+    display: flex;
+    width: 405px;
+    height: 100%;
+    border: none;
+    background-color: #050505;
+    flex-direction: row;
+    float: left;
+}
+
+#keypad-container {
+    display: flex;
+    width: 405px;
+    height: 100%;
+    border: none;
+    background-color: #050505;
+    border-radius: 10px;
+    flex-direction: column;
+    float: left;
+}
+
+#suggestions-container {
+    height: 150px;
+    width: 399px;
+    border: solid;
+}
+
+#num-pad-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 403px;
+    width: 399px;
+}
+
+.button-looks {
+    width: 99px;
+    height: 99px;
+    border: transparent;
+    border-radius: 100%;
+    font-size: 25px;
+    color: white;
+    margin: 0 10px 0 10px;
+    background-color: transparent;
+}
+
+#number-input {
+    display: flex;
+    justify-content: center;
+    height: 53px;
+    width: 399px;
+}
+
+#input {
+    color: #9c9c9c;
+    font-size: 29px;
+    padding-top: 16px;
+}
+
+#call-icons-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 399px;
+    height: 100px;
+}
+
+.call-icons {
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+    border: solid transparent;
+    border-radius: 8px;
+}
+
+.call-icons:hover {
+    background-color: #c9c9c9;
+}
+
+#video-button {
+    background-image: url("../img/icons8_video_call_24px_3.png");
+}
+
+#call-button {
+    background-image: url("../img/icons8_phone_48px.png");
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+}
+
+#delete-button {
+    background-image: url("../img/icons8_clear_symbol_24px.png");
 }
