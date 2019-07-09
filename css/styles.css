@@ -20,7 +20,7 @@
     width: 340px;
     height: auto;
     border-style: none;
-    font-family: Arial;
+    font-family: Gill Sans, sans-serif;
     background-color: transparent;
     color: #e0e0e0;
     padding-left: 10px;
@@ -45,13 +45,15 @@
     flex-direction: column;
     align-items: flex-start;
     background-color: #050505;
-    border: 2px solid transparent;
+    border: 2px solid red;
     flex-grow: 1;
     min-height: min-content;
     overflow: scroll;
-    scrollbar-width: none;
+    overflow-x: hidden;
     float: left;
     height: 100%;
+    width: 399px;
+
 }
 
 #create-contact-container > span {
@@ -72,6 +74,7 @@
     height: 25px;
     width: 25px;
     align-self: flex-start;
+    font-family: Gill Sans, sans-serif;
     background-repeat: no-repeat;
     background-image: url("../img/icons8-add-to-favorites-52.png");
     background-size: cover;
@@ -86,6 +89,7 @@
     margin-bottom: 10px;
     display: flex;
     width: 389px;
+    font-family: Gill Sans, sans-serif;
 
 }
 
@@ -131,6 +135,7 @@
     border: none;
     color: #f4f4f4;
     font-size: 16px;
+    font-family: Gill Sans, sans-serif;
 }
 
 #navigation-bar > button:hover {
@@ -138,6 +143,8 @@
 }
 
 #big-list {
+    display: flex;
+    flex-direction: row;
     width: 1215px;
     height: 737px;
     overflow: hidden;
@@ -146,20 +153,48 @@
 #small-list-with-a-hole {
     width: 405px;
     height: 833px;
-    overflow: scroll;
-    overflow-x: hidden;
-    scrollbar-width: none;
-
+    overflow: hidden;
 }
 
 #resents-container {
     display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    overflow-x: hidden;
     width: 405px;
-    height: 100%;
     border: none;
+    padding-top: 10px;
     background-color: #050505;
-    flex-direction: row;
     float: left;
+}
+
+.call-log-container {
+    display: flex;
+    flex-direction: row;
+    height: 52px;
+    width: 405px;
+    border: solid rebeccapurple;
+    font-family: Gill Sans, sans-serif;
+    color: whitesmoke;
+}
+
+.day-of-week {
+    font-family: Gill Sans, sans-serif;
+    color: whitesmoke;
+    font-size: 18px;
+
+}
+
+.time-phone-call-received {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    font-family: Gill Sans, sans-serif;
+    color: whitesmoke;
+}
+
+.caller-name {
+    width: 300px;
 }
 
 #keypad-container {
@@ -194,25 +229,38 @@
     height: 99px;
     border: transparent;
     border-radius: 100%;
+    font-family: Gill Sans, sans-serif;
     font-size: 25px;
     color: white;
     margin: 0 10px 0 10px;
     background-color: transparent;
 }
 
-#number-input {
+#user-input {
     display: flex;
     justify-content: center;
     height: 53px;
     width: 399px;
 }
 
-#input {
-    color: #9c9c9c;
+#entered-number {
+    text-align: center;
+    background-color: #101010;
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
     font-size: 29px;
-    padding-top: 16px;
+    font-family: Gill Sans, sans-serif;
 }
 
+/*  Example for a number:
+    #input {
+    color: #9c9c9c;
+    font-size: 29px;
+    font-family: Gill Sans, sans-serif ;
+    padding-top: 16px;
+}
+*/
 #call-icons-container {
     display: flex;
     justify-content: space-around;

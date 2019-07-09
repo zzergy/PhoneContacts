@@ -18,8 +18,9 @@
         <div id="big-list">
             <div id="keypad-container">
                 <div id="suggestions-container"></div>
-                <div id="number-input">
-                    <span id="input">+359 12 345 6789</span>
+                <div id="user-input">
+                    <input id="entered-number" type="text">
+                    <!-- <span id="input">+359 12 345 6789</span> -->
                 </div>
                 <div id="num-pad-container">
                     <button class="button-looks">1</button>
@@ -43,12 +44,20 @@
                 </div>
             </div>
 
-            <div id="resents-container"></div>
+            <div id="resents-container">
+                <span class="day-of-week">Today</span>
+                <div class="call-log-container">
+                    <button class="contact-icon"></button>
+                    <span class="caller-name">Name 1</span>
+                    <span class="time-phone-call-received">05:45PM</span>
+                </div>
+            </div>
 
             <div id="contacts-container">
                 <div id="create-contact-container">
                     <button id="create-contact"></button>
                     <span>Create contact</span>
+                    <span>Name 1</span>
                 </div>
 
                 <div class="contact">

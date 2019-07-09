@@ -5,3 +5,4 @@ of my phone and replicated as a web page..
 Used technologies:
  * HTML5
  * CSS3
+ * JavaScript 
