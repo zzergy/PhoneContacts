@@ -1,0 +1,75 @@
+
+#contacts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #050505;
+    flex-grow: 1;
+    min-height: min-content;
+    overflow: scroll;
+    overflow-x: hidden;
+    float: left;
+    height: 100%;
+    width: 399px;
+
+}
+
+#create-contact-container > span {
+    color: #606060;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+#create-contact-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+#create-contact {
+    height: 25px;
+    width: 25px;
+    align-self: flex-start;
+    font-family: Gill Sans, sans-serif;
+    background-repeat: no-repeat;
+    background-image: url("../img/icons8-add-to-favorites-52.png");
+    background-size: cover;
+    background-color: darkgray;
+    border: 2px solid transparent;
+    border-radius: 50%;
+}
+
+.contact {
+    margin-top: 15px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    width: 389px;
+    font-family: Gill Sans, sans-serif;
+
+}
+
+.contact > span {
+    color: whitesmoke;
+    line-height: 50px;
+    vertical-align: middle;
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+.contact:hover {
+    background-color: #191919;
+
+}
+
+.contact-icon {
+    /*background-image: url("../img/icons8-contacts-208.png"); Alternative icon choice.*/
+    background-image: url("../img/icons8_user_male_circle_96px.png");
+    background-size: cover;
+    height: 52px;
+    width: 52px;
+    border: solid #191919;
+    border-radius: 100%;
+}

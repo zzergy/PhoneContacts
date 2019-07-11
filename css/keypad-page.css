@@ -1,0 +1,99 @@
+
+#keypad-container {
+    display: flex;
+    width: 405px;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    flex-direction: column;
+    float: left;
+}
+
+#suggestions-container {
+    height: 150px;
+    width: 399px;
+}
+
+#num-pad-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 403px;
+    width: 399px;
+}
+
+.button-looks {
+    width: 99px;
+    height: 99px;
+    border: transparent;
+    border-radius: 100%;
+    font-family: Gill Sans, sans-serif;
+    font-size: 25px;
+    color: white;
+    margin: 0 10px 0 10px;
+    background-color: transparent;
+}
+
+#user-input {
+    display: flex;
+    justify-content: center;
+    height: 53px;
+    width: 399px;
+}
+
+#entered-number {
+    text-align: center;
+    background-color: #101010;
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-size: 29px;
+    font-family: Gill Sans, sans-serif;
+}
+
+/*  Example for a number:
+    #input {
+    color: #9c9c9c;
+    font-size: 29px;
+    font-family: Gill Sans, sans-serif ;
+    padding-top: 16px;
+}
+*/
+#call-icons-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 399px;
+    height: 100px;
+}
+
+.call-icons {
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+}
+
+/*
+.call-icons:hover {
+
+    }
+*/
+#video-button {
+    background-image: url("../img/icons8-video-call-48.png");
+}
+
+#call-button {
+    background-image: url("../img/icons8-phone-60.png");
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+}
+
+#delete-button {
+    background-image: url("../img/icons8-clear-symbol-48.png");
+}

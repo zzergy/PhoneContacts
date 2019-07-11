@@ -1,0 +1,74 @@
+#resents-container {
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    overflow-x: hidden;
+    width: 405px;
+    border: none;
+    padding-top: 10px;
+    background-color: #050505;
+    float: left;
+}
+
+.call-log-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 52px;
+    width: 405px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    font-family: Gill Sans, sans-serif;
+    color: whitesmoke;
+}
+
+.day-of-week {
+    font-family: Gill Sans, sans-serif;
+    color: whitesmoke;
+    font-size: 16px;
+    padding-left: 5px;
+    /*border: solid crimson;*/
+
+}
+
+.time-phone-call-received {
+    display: flex;
+    align-items: flex-end;
+    padding-left: 193px;
+    font-family: Gill Sans, sans-serif;
+    font-size: small;
+    color: whitesmoke;
+}
+
+.caller-info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 65px;
+}
+
+.received-calls {
+    width: 18px;
+    height: 18px;
+    background-image: url("../img/icons8-outgoing-call-32.png");
+    background-color: transparent;
+    background-size: cover;
+    border: none;
+}
+
+.missed-calls {
+    width: 18px;
+    height: 18px;
+    background-image: url("../img/icons8-missed-call-32.png");
+    background-color: transparent;
+    background-size: cover;
+    border: none;
+}
+
+.call-log-container:hover {
+    background-color: #191919;
+
+}

@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <link href="css/styles.css" rel="stylesheet"/>
+    <link href="css/contacts-page.css" rel="stylesheet"/>
+    <link href="css/keypad-page.css" rel="stylesheet"/>
+    <link href="css/resents-page.css" rel="stylesheet"/>
     <meta charset="UTF-8">
     <title>Contacts-List</title>
 </head>
@@ -13,13 +16,15 @@
         <input id="search-bar" type="text" placeholder="Search..">
         <button id="more-options-button"></button>
     </div>
-
+    <!-- User sees only the page that is displayed. The rest of the containers are hidden.-->
     <div id="small-list-with-a-hole">
+        <!-- Big container that has all of the pages in a row. When the user clicks on the navigation bar
+        this container is being moved in order to display the content.-->
         <div id="big-list">
             <div id="keypad-container">
                 <div id="suggestions-container"></div>
                 <div id="user-input">
-                    <input id="entered-number" type="text">
+                    <input id="entered-number" type="tel"><!-- problem with this ? -->
                     <!-- <span id="input">+359 12 345 6789</span> -->
                 </div>
                 <div id="num-pad-container">
@@ -48,8 +53,107 @@
                 <span class="day-of-week">Today</span>
                 <div class="call-log-container">
                     <button class="contact-icon"></button>
-                    <span class="caller-name">Name 1</span>
-                    <span class="time-phone-call-received">05:45PM</span>
+                    <div class="caller-info">
+                        <span>Name 1</span>
+                        <button class="received-calls"></button>
+                    </div>
+                    <span class="time-phone-call-received">11:45AM</span>
+                </div>
+                <div class="call-log-container">
+                    <button class="contact-icon"></button>
+                    <div class="caller-info">
+                        <span>Name 8</span>
+                        <button class="missed-calls"></button>
+                    </div>
+                    <span class="time-phone-call-received">12:06PM</span>
+                </div>
+                <div class="call-log-container">
+                    <button class="contact-icon"></button>
+                    <div class="caller-info">
+                        <span>Name 5</span>
+                        <button class="received-calls"></button>
+                    </div>
+                    <span class="time-phone-call-received">10:04AM</span>
+                </div>
+
+                <span class="day-of-week">Yesterday</span>
+                <div class="call-log-container">
+                    <button class="contact-icon"></button>
+                    <div class="caller-info">
+                        <span>Name 10</span>
+                        <button class="missed-calls"></button>
+                    </div>
+                    <span class="time-phone-call-received">11:01AM</span>
+                </div>
+                <div class="call-log-container">
+                    <button class="contact-icon"></button>
+                    <div class="caller-info">
+                        <span>Name 4</span>
+                        <button class="missed-calls"></button>
+                    </div>
+                    <span class="time-phone-call-received">10:59AM</span>
+                </div>
+
+                <span class="day-of-week">July 8, 2019</span>
+                <div class="call-log-container">
+                    <button class="contact-icon"></button>
+                    <div class="caller-info">
+                        <span>Name 3</span>
+                        <button class="missed-calls"></button>
+                    </div>
+                    <span class="time-phone-call-received">02:20PM</span>
+                </div>
+                <div class="call-log-container">
+                    <button class="contact-icon"></button>
+                    <div class="caller-info">
+                        <span>Name 4</span>
+                        <button class="received-calls"></button>
+                    </div>
+                    <span class="time-phone-call-received">02:16PM</span>
+                </div>
+
+                <span class="day-of-week">July 7, 2019</span>
+                <div class="call-log-container">
+                    <button class="contact-icon"></button>
+                    <div class="caller-info">
+                        <span>Name 3</span>
+                        <button class="missed-calls"></button>
+                    </div>
+                    <span class="time-phone-call-received">08:32PM</span>
+                </div>
+                <div class="call-log-container">
+                    <button class="contact-icon"></button>
+                    <div class="caller-info">
+                        <span>Name 2</span>
+                        <button class="received-calls"></button>
+                    </div>
+                    <span class="time-phone-call-received">11:10PM</span>
+                </div>
+                <div class="call-log-container">
+                    <button class="contact-icon"></button>
+                    <div class="caller-info">
+                        <span>Name 2</span>
+                        <button class="received-calls"></button>
+                    </div>
+                    <span class="time-phone-call-received">09:57AM</span>
+                </div>
+                <div class="call-log-container">
+                    <button class="contact-icon"></button>
+                    <div class="caller-info">
+                        <span>Name 13</span>
+                        <button class="missed-calls"></button>
+                    </div>
+                    <span class="time-phone-call-received">07:30PM</span>
+                </div>
+
+                <span class="day-of-week">1 July, 2019</span>
+                <div class="call-log-container">
+                    <button class="contact-icon"></button>
+                    <div class="caller-info">
+                        <span>Name 12</span>
+                        <button class="missed-calls"></button>
+                    </div>
+                    <span class="time-phone-call-received">03:30PM</span>
                 </div>
             </div>
 
