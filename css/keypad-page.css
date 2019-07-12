@@ -24,7 +24,7 @@
     width: 399px;
 }
 
-.button-looks {
+.keypad-numbers, .symbol-settings {
     width: 99px;
     height: 99px;
     border: transparent;

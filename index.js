@@ -1,3 +1,4 @@
+//Moving the div's.
 (function () {
     const bigListElement = document.getElementById('big-list');
     bigListElement.style.marginLeft = '-405px';
@@ -18,5 +19,14 @@
         bigListElement.style.marginLeft = '-810px';
     });
 
-
 })();
+
+//Keypad functionality.
+let allNumbers = document.querySelectorAll('.keypad-numbers');
+for (let i = 0; i < allNumbers.length; i++) {
+    allNumbers[i].addEventListener('click', function () {
+        let textFromButton = this.innerText;
+        const numberInput = document.getElementById('entered-number');
+        numberInput.value += textFromButton;
+    });
+}
