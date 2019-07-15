@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background-color: #050505;
+    background-color: #090909;
     flex-grow: 1;
     min-height: min-content;
     overflow: scroll;
@@ -70,6 +70,6 @@
     background-size: cover;
     height: 52px;
     width: 52px;
-    border: solid #191919;
+    border: solid #090909;
     border-radius: 100%;
 }

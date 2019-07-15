@@ -3,17 +3,9 @@
     width: 405px;
     height: 833px;
     border: none;
-    background-color: #050505;
+    background-color: #090909;
     border-radius: 10px;
     flex-direction: column;
-}
-
-#more-options-container {
-    display: flex;
-    justify-content: space-between;
-    width: auto;
-    border: 2px solid transparent;
-    padding-right: 10px;
 }
 
 #search-bar {
@@ -26,6 +18,14 @@
     padding-left: 10px;
     padding-top: 10px;
     font-size: 20px;
+}
+
+#more-options-container {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    border: 2px solid transparent;
+    padding-right: 10px;
 }
 
 #more-options-button {

@@ -21,19 +21,25 @@
     align-content: center;
     align-items: center;
     height: 403px;
-    width: 399px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
-.keypad-numbers, .symbol-settings {
-    width: 99px;
-    height: 99px;
+.keypad-numbers {
+    width: 83px;
+    height: 83px;
     border: transparent;
-    border-radius: 100%;
+    border-radius: 25px;
     font-family: Gill Sans, sans-serif;
-    font-size: 25px;
+    font-size: 26px;
     color: white;
-    margin: 0 10px 0 10px;
+    margin: 5px 15px 5px 15px;
     background-color: transparent;
+    transition-duration: 0.5s;
+}
+
+.keypad-numbers:hover {
+    box-shadow: 0 3px 18px 2px rgba(79, 79, 79, 1);
 }
 
 #user-input {
@@ -45,7 +51,7 @@
 
 #entered-number {
     text-align: center;
-    background-color: #101010;
+    background-color: #090909;
     border: none;
     border-radius: 5px;
     color: whitesmoke;
@@ -53,14 +59,6 @@
     font-family: Gill Sans, sans-serif;
 }
 
-/*  Example for a number:
-    #input {
-    color: #9c9c9c;
-    font-size: 29px;
-    font-family: Gill Sans, sans-serif ;
-    padding-top: 16px;
-}
-*/
 #call-icons-container {
     display: flex;
     justify-content: space-around;
@@ -78,11 +76,6 @@
     border: none;
 }
 
-/*
-.call-icons:hover {
-
-    }
-*/
 #video-button {
     background-image: url("../img/icons8-video-call-48.png");
 }
