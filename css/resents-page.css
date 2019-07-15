@@ -21,6 +21,12 @@
     padding-left: 5px;
     font-family: Gill Sans, sans-serif;
     color: whitesmoke;
+    transition-duration: 0.7s;
+}
+
+.call-log-container:hover {
+    background-color: #191919;
+
 }
 
 .day-of-week {
@@ -28,8 +34,6 @@
     color: whitesmoke;
     font-size: 16px;
     padding-left: 5px;
-    /*border: solid crimson;*/
-
 }
 
 .time-phone-call-received {
@@ -66,9 +70,4 @@
     background-color: transparent;
     background-size: cover;
     border: none;
-}
-
-.call-log-container:hover {
-    background-color: #191919;
-
 }

@@ -62,6 +62,7 @@
 }
 
 #navigation-bar > button:hover {
+    color: #1abc9c;
     border-bottom: 3px dotted gray;
 }
 

@@ -29,14 +29,14 @@
 }
 
 #create-contact {
-    height: 25px;
-    width: 25px;
+    height: 29px;
+    width: 29px;
     align-self: flex-start;
     font-family: Gill Sans, sans-serif;
     background-repeat: no-repeat;
-    background-image: url("../img/icons8-add-to-favorites-52.png");
+    background-image: url("../img/icons8-add-to-favorites-60.png");
     background-size: cover;
-    background-color: darkgray;
+    background-color: transparent;
     border: 2px solid transparent;
     border-radius: 50%;
 }
@@ -48,7 +48,7 @@
     display: flex;
     width: 389px;
     font-family: Gill Sans, sans-serif;
-
+    transition-duration: 0.7s;
 }
 
 .contact > span {
@@ -65,7 +65,6 @@
 }
 
 .contact-icon {
-    /*background-image: url("../img/icons8-contacts-208.png"); Alternative icon choice.*/
     background-image: url("../img/icons8_user_male_circle_96px.png");
     background-size: cover;
     height: 52px;
