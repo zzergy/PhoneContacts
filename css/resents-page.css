@@ -6,7 +6,6 @@
     width: 405px;
     border: none;
     padding-top: 10px;
-    background-color: #050505;
     float: left;
 }
 
@@ -21,7 +20,7 @@
     padding-left: 5px;
     font-family: Gill Sans, sans-serif;
     color: whitesmoke;
-    transition-duration: 0.7s;
+    transition-duration: 0.3s;
 }
 
 .call-log-container:hover {

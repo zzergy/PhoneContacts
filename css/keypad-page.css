@@ -35,15 +35,16 @@
     color: white;
     margin: 5px 15px 5px 15px;
     background-color: transparent;
-    transition-duration: 0.5s;
 }
 
 .keypad-numbers:hover {
+    transition-duration: 0.4s;
     color: #1abc9c;
     box-shadow: 0 0 18px 2px rgba(79, 79, 79, 1);
 }
 
 .keypad-numbers:active {
+    transition-duration: 0.2s;
     box-shadow: 0 5px #666;
     transform: translateY(6px);
 }
@@ -57,7 +58,7 @@
 
 #entered-number {
     text-align: center;
-    background-color: #131313;;
+    background-color: #191919;;
     border: none;
     border-radius: 6px;
     color: whitesmoke;
