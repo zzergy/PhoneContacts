@@ -1,4 +1,4 @@
-//Moving the div's.
+//Moving the pages
 (function () {
     const bigListElement = document.getElementById('big-list');
     bigListElement.style.marginLeft = '-405px';
@@ -39,7 +39,7 @@
 
 })();
 
-//Keypad functionality.
+//Keypad functionality
 let allNumbers = document.querySelectorAll('.keypad-numbers');
 for (let i = 0; i < allNumbers.length; i++) {
     allNumbers[i].addEventListener('click', function () {
@@ -48,3 +48,8 @@ for (let i = 0; i < allNumbers.length; i++) {
         numberInput.value += textFromButton;
     });
 }
+//Delete button
+let deleteButtonElement = document.getElementById('delete-button');
+deleteButtonElement.addEventListener('click', function () {
+  document.getElementById('entered-number').value = '';
+});

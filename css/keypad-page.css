@@ -57,9 +57,9 @@
 
 #entered-number {
     text-align: center;
-    background-color: #090909;
+    background-color: #131313;;
     border: none;
-    border-radius: 5px;
+    border-radius: 6px;
     color: whitesmoke;
     font-size: 29px;
     font-family: Gill Sans, sans-serif;
@@ -103,7 +103,6 @@
 
 #delete-button {
     background-image: url("../img/icons8-clear-symbol-60.png");
-    transition-duration: 0.5s;
 }
 
 #delete-button:hover {
