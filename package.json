@@ -1,0 +1,22 @@
+{
+  "name": "phone-contacts",
+  "version": "1.0.0",
+  "description": "Recreating the contacts page fom my phone.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzergy/PhoneContacts.git"
+  },
+  "author": "Zergy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zzergy/PhoneContacts/issues"
+  },
+  "homepage": "https://github.com/zzergy/PhoneContacts#readme",
+  "dependencies": {
+    "smooth-scrollbar": "^8.4.0"
+  }
+}

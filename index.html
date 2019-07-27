@@ -244,5 +244,12 @@
 </div>
 
 <script src="index.js"></script>
+<script src="node_modules/smooth-scrollbar/dist/smooth-scrollbar.js"></script>
+
+<script>
+    let Scrollbar = window.Scrollbar;
+    Scrollbar.init(document.querySelector('#resents-container'));
+    Scrollbar.init(document.querySelector('#contacts-container'));
+</script>
 </body>
 </html>
